@@ -1,3 +1,11 @@
-ul li{
-    display:inline-block
+ul, li, a
+{
+    display:inline-block;
+    text-decoration: none;
+    color: darkgreen;
+    margin: 10px 20px 20px 20px;
+    font-weight: bold;
+}
+a:hover{
+    color: blue;
 }
